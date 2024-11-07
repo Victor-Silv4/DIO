@@ -3,10 +3,10 @@ Este é um simples jogo da memória desenvolvido com HTML, CSS e JavaScript. O o
 
 # 📋 Funcionalidades
 
-## Shuffle dos Emojis: Ao iniciar, os emojis são embaralhados aleatoriamente.
-## Jogabilidade Intuitiva: Clique em duas cartas para virá-las e descobrir se elas formam um par.
-## Sistema de Feedback: Cartas que correspondem ficam abertas e são destacadas; cartas que não correspondem voltam a ficar viradas.
-## Alerta de Vitória: Quando todos os pares são encontrados, uma mensagem de vitória aparece.
+ Shuffle dos Emojis: Ao iniciar, os emojis são embaralhados aleatoriamente.
+ Jogabilidade Intuitiva: Clique em duas cartas para virá-las e descobrir se elas formam um par.
+ Sistema de Feedback: Cartas que correspondem ficam abertas e são destacadas; cartas que não correspondem voltam a ficar viradas.
+ Alerta de Vitória: Quando todos os pares são encontrados, uma mensagem de vitória aparece.
 
 # 🛠️ Tecnologias Utilizadas
 
