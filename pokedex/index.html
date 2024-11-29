@@ -18,8 +18,8 @@
     <section class="content">
         <h1>Pokedex</h1>
         
-        <ol class="pokemons">
-            <li class="pokemon">
+        <ol id="pokemonList" class="pokemons">
+            <!-- <li class="pokemon">
                 <span class="number">#001</span>
                 <span class="name">Bulbasaur</span>
                 <div class="detail">
@@ -29,47 +29,17 @@
                     </ol>
                     <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/1.png?raw=true" alt="Bulbasaur">
                 </div>
-            </li>
-            <!--<li>
-                Ivysaur
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/2.png?raw=true" alt="Ivysaur">
-            </li>
-            <li>
-                Venusaur
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/3.png?raw=true" alt="Venusaur">
-            </li>
-            <li>
-                Charmander
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/4.png?raw=true" alt="Charmander">
-            </li>
-            <li>
-                Charmeleon
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/5.png?raw=true" alt="Charmeleon">
-            </li>
-            <li>
-                Charizard
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/6.png?raw=true" alt="Charizard">
-            </li>
-            <li>
-                Squirtle
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/7.png?raw=true" alt="Squirtle">
-            </li>
-            <li>
-                Wartortle
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/8.png?raw=true" alt="Wartortle">
-            </li>
-            <li>
-                Blastoise
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/9.png?raw=true" alt="Blastoise">
-            </li>
-            <li>
-                Pikachu
-                <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/25.png?raw=true" alt="Pikachu">
-            </li>
-            !-->
+            </li> !-->
         </ol>
-    </section>
 
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">Load more</button>
+        </div>
+
+    </section>
+  
+    <script src="assets/scripts/pokeApi.js"></script>
     <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/pokemon-model.js"></script>
 </body>
 </html>
