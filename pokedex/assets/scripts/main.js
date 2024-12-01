@@ -58,7 +58,7 @@ function convertPokemonToOverlay(pokemon) {
             </div>`;
  }
 
- function loadMoveItems(pokemon, newMovesCount) {
+ function loadMoveItems(pokemon) {
     // Verifica se o Pokémon já tem movimentos carregados
     const moveList = pokemon.moves; // Pega os novos movimentos
     const moveTypes = pokemon.moveTypes; // Pega os tipos dos movimentos
@@ -126,15 +126,14 @@ pokemonList.addEventListener('click', (event) => {
                 console.log(pokemon);  // Exibe o Pokémon
                 overlayContent.innerHTML = convertPokemonToOverlay(pokemon);
                 overlay.style.display = "flex";
-                loadMoveItems(pokemon, 4);
+                loadMoveItems(pokemon);
 
-                let newMoves = 4;
                 let movesLimit = 4;
 
                 overlay.addEventListener('scroll', () => {
-                    if(movesLimit <= 8) {
-                        movesLimit += 4;
-                        loadMoveItems(pokemon, newMoves);
+                    if(movesLimit < 1) {
+                        movesLimit ++;
+                        loadMoveItems(pokemon);
                     }
                     
                 });
