@@ -67,6 +67,74 @@
     padding: 15px 30px;
 }
 
+.additionalInfos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    color: #000;
+    background-color: #fff;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.additionalInfos .abilitiesInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.additionalInfos .abilitiesInfo li {
+    list-style: none;
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.additionalInfos .abilitiesInfo span {
+    font-size: 2.5rem;
+}
+
+.additionalInfos .moveInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.additionalInfos .moveInfo span {
+    font-size: 3rem;
+}
+
+.additionalInfos .movePositions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.additionalInfos .moves {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-size: 2rem;
+    gap: 50px;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.additionalInfos .moves li {
+    padding: 20px 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
 .normal {
     background-color: #a8a877;
 }
@@ -139,14 +207,7 @@
     background-color: #f9aec7;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        max-height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
-}
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
@@ -158,13 +219,27 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+}
+
+@media screen and (min-width: 630px) {
+    .additionalInfos .moves {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    .pokemons {
+    .pokemons, .additionalInfos .moves {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
-
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        max-height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
 
