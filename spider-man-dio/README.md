@@ -10,7 +10,7 @@ Este projeto foi desenvolvido como parte do Bootcamp **Front End do Zero**, prom
 ## 🚀 Futuras Melhorias
 Pretendo expandir este projeto no futuro, criando as demais páginas do site, como:
 - Página de **galeria de imagens**;
-- Página de **Páginas dos demais filmes**;
+- Página dos **demais filmes**;
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5**
