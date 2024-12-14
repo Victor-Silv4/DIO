@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .detail {
+    background-color:  #77c850;
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .alterFunc {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+header .pokemon {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+header .leftInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.types {
+    display: flex;
+    gap: 15px;
+}
+
+header li {
+    list-style: none;
+    color: #fff;
+    padding: .3rem .3rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    filter: brightness(1.1);
+    background-color: #77c850;
+}
+
+header img {
+    align-self: center;
+    max-width: 100%;
+    min-width: 60%;
+}

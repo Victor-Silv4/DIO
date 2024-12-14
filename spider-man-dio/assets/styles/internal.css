@@ -1,0 +1,95 @@
+@import url("/assets/styles/reset.css");
+@import url("/assets/styles/global.css");
+@import url("/assets/styles/components/pills.css");
+@import url("/assets/styles/components/navigator.css");
+@import url("/assets/styles/components/link-button.css");
+@import url("/assets/styles/components/gallery.css");
+
+.s-wrapper {
+    display: flex;
+    height: 100vh;
+    flex-flow: row nowrap;
+}
+
+.s-wrapper video {
+    width: 100%;
+    position: fixed;
+}
+
+.s-wrapper .s-left-column {
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.s-wrapper .s-main-content {
+    width: 100%;
+    height: 100%;
+    background-color: #808080;
+    position: relative;
+}
+
+s.main-content {
+    height: 100%;
+    width: 100%;
+    background-color: #808080;
+    padding-left: 30px;
+}
+
+.s-main-content__top {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.s-main-content__bottom {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.s-main-content__logo img {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content__top .s-description { 
+    background-color: rgba(0,0,0,.7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 130px;
+}
+  
+.s-wrapper .s-main-content__top .s-description .s-description__text p {
+    color: white;
+    line-height: 170%;
+}
+  
+.s-wrapper .s-main-content__top .s-description .pills {
+    margin-bottom: 20px;
+}
+  
+.s-description__text {
+    color: #FFF;
+    line-height: 170%;
+}
+
+.s-links li {
+    margin-top: 20px;
+}
+
+.spiderman-01-01 {
+    background-image: url("/assets/images/spiderman-tobey/movie-01/background.png");
+    background-size: cover;
+}
