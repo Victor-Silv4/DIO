@@ -5,7 +5,6 @@ Este projeto foi desenvolvido como parte do Bootcamp **Front End do Zero**, prom
 ## ✨ Funcionalidades
 - Estruturação da página com **HTML5**;
 - Estilização utilizando **CSS3**;
-- Design responsivo adaptado para diferentes dispositivos.
 
 ## 🚀 Futuras Melhorias
 Pretendo expandir este projeto no futuro, criando as demais páginas do site, como:
